@@ -1,13 +1,13 @@
 import React from 'react'
-import Cloud from '../components/cloud/Cloud'
 import Footer from '../components/footer/Footer'
 import Navbar from '../components/navbar/Navbar'
+import Recovery from '../components/recovery/Recovery'
 
-const CloudPage = () => {
+const RecoveryPage = () => {
   return (
     <>
         <Navbar/>
-        <Cloud/>
+        <Recovery/>
         <Footer />
 
     
@@ -15,4 +15,4 @@ const CloudPage = () => {
   )
 }
 
-export default CloudPage
+export default RecoveryPage
