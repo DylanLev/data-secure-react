@@ -3,6 +3,8 @@ import { SiDatabricks } from 'react-icons/si'
 import './FooterStyles.css'
 import {BsFillArrowUpCircleFill} from 'react-icons/bs'
 import {FiDribbble, FiFacebook, FiGithub, FiInstagram, FiLinkedin, FiMail} from 'react-icons/fi'
+import Link from 'react-scroll/modules/components/Link'
+
 function Footer() {
   return ( 
   <div className='footer'>
@@ -12,7 +14,10 @@ function Footer() {
                 <SiDatabricks className='icon'/>
                 <h2>Secured.</h2>
             </div>
+            <Link activeClass='active' to='top' spy={true} smooth={true} duration={500}> 
             <BsFillArrowUpCircleFill className='icon'/>
+            </Link>
+            
         </div>
             <div className="col-container">
                 <div className="col">
